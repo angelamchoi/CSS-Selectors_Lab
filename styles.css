@@ -1,0 +1,75 @@
+      /* Move your styles here when you're ready to clean up your HTML file */
+      /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+      /******TAG SELECTORS********/
+      
+      body {
+          font size: 15px;
+          font-family: 'Lato', Calibri, 'Trebuchet MS', sans-serif;
+          color: cadetblue;
+      }
+      
+      h1,
+      h2 {
+          font-family: 'Lato', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 20px;
+          background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(99, 9, 121, 1) 56%, rgba(0, 212, 255, 1) 100%);
+          color: deeppink;
+      }
+      
+      header {
+          border-bottom: 5px dotted darkorange;
+      }
+      
+      #selectors {
+          font-size: 20px;
+      }
+      /*****CLASS SELECTORS*******/
+      
+      .class-list {
+          list-style-type: square;
+      }
+      /*****ID SELECTORS*******/
+      
+      #item1 p {
+          font-size: 30px;
+      }
+      
+      #item2 p {
+          text-align: right;
+      }
+      
+      .item {
+          color: pink;
+      }
+      
+      ul li {
+          border: 10px;
+          color: white;
+      }
+      /****ADAVNCED SELECTORS******/
+      
+      .item-even p {
+          background-color: grey;
+      }
+      
+      .item-odd p {
+          background-color: black;
+          color: white;
+      }
+      
+      .exercises li:nth-child(2n+1) {
+          background-color: green
+      }
+      
+      a:hover {
+          text-decoration: none;
+      }
+      
+      ol {
+          background-color: grey;
+          padding: 10px 5px;
+      }
+      
+      #advanced-selectors ul li:hover {
+          background-color: yellow;
+      }
